@@ -17,14 +17,14 @@ var userRoutes    = require('./routes/user');
 
 var app           = express();
 
-/*mongoose.connect('mongodb://melad:123@ds135196.mlab.com:35196/shopping', {useMongoClient: true});
+mongoose.connect('mongodb://melad:123@ds135196.mlab.com:35196/shopping', {useMongoClient: true});
 var db = mongoose.connection;
 db.on('error', console.error.bind(console, ' connection error: '));
 db.once('open', function(){
   console.log("connect");
-});*/
-mongoose.connect('mongodb://localhost:27017/shopping', { useMongoClient: true });
-mongoose.Promise = global.Promise;
+});
+/*mongoose.connect('mongodb://localhost:27017/shopping', { useMongoClient: true });
+mongoose.Promise = global.Promise;*/
 
 
 require('./config/passport');
