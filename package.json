@@ -1,5 +1,5 @@
 {
-  "name": "shopping-cart",
+  "name": "e-commerce",
   "version": "0.0.0",
   "private": true,
   "scripts": {
@@ -28,5 +28,17 @@
   },
   "devDependencies": {
     "nodemon": "^1.13.3"
-  }
+  },
+  "description": "\"# e-commerce\"  \"# e-commerce\"",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miladezzat/e-commerce.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/miladezzat/e-commerce/issues"
+  },
+  "homepage": "https://github.com/miladezzat/e-commerce#readme"
 }
